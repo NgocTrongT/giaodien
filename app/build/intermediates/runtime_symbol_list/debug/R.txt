@@ -3028,7 +3028,6 @@ int id textinput_helper_text 0x7f0801cc
 int id textinput_placeholder 0x7f0801cd
 int id textinput_prefix_text 0x7f0801ce
 int id textinput_suffix_text 0x7f0801cf
-int id textview_second 0x7f0801d0
 int id time 0x7f0801d1
 int id title 0x7f0801d2
 int id titleDividerNoCustom 0x7f0801d3

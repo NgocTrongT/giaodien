@@ -6,85 +6,103 @@
     android:layout_height="match_parent"
     tools:context=".SecondFragment">
 
-    <TextView
-        android:id="@+id/textview_second"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:gravity="center"
+        android:orientation="vertical" />
 
     <TextView
         android:layout_width="84dp"
         android:layout_height="36dp"
+        android:layout_marginBottom="640dp"
         android:text="Profile"
         android:textColor="#000"
-        android:textSize="25dp"
 
-        tools:layout_editor_absoluteX="163dp"
-        tools:layout_editor_absoluteY="55dp" />
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:layout_width="100dp"
         android:layout_height="71dp"
+        android:layout_marginBottom="312dp"
+        android:gravity="center"
         android:text="125 Friends"
         android:textColor="#000"
         android:textSize="25dp"
-        android:gravity="center"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="347dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:layout_width="109dp"
         android:layout_height="73dp"
+        android:layout_marginBottom="308dp"
         android:gravity="center"
         android:text="250       Followers"
         android:textColor="#000"
         android:textSize="25dp"
-        tools:layout_editor_absoluteX="137dp"
-        tools:layout_editor_absoluteY="345dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.456"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:layout_width="371dp"
         android:layout_height="55dp"
+        android:layout_marginBottom="232dp"
         android:gravity="center"
         android:text="email: hoangbuingoctrong@gmail.com"
         android:textColor="#000"
         android:textSize="20dp"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="445dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:layout_width="371dp"
         android:layout_height="55dp"
+        android:layout_marginBottom="168dp"
         android:gravity="center"
         android:text="Phone: 0981233887"
         android:textColor="#000"
         android:textSize="20dp"
-        tools:layout_editor_absoluteX="24dp"
-        tools:layout_editor_absoluteY="515dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent" />
+
 
     <TextView
         android:layout_width="371dp"
         android:layout_height="55dp"
+        android:layout_marginBottom="100dp"
         android:gravity="center"
         android:text="Skype: me007"
         android:textColor="#000"
         android:textSize="20dp"
-        tools:layout_editor_absoluteX="24dp"
-        tools:layout_editor_absoluteY="583dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:layout_width="371dp"
         android:layout_height="55dp"
+        android:layout_marginBottom="28dp"
         android:gravity="center"
         android:text="Web: cssauthor.com"
         android:textColor="#000"
         android:textSize="20dp"
-        tools:layout_editor_absoluteX="20dp"
-        tools:layout_editor_absoluteY="650dp" />
-
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView"

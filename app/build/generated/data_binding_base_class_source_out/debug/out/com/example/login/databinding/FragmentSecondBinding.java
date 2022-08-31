@@ -6,7 +6,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -27,15 +26,11 @@ public final class FragmentSecondBinding implements ViewBinding {
   @NonNull
   public final ImageView imageView;
 
-  @NonNull
-  public final TextView textviewSecond;
-
   private FragmentSecondBinding(@NonNull ConstraintLayout rootView, @NonNull Button buttonFirst,
-      @NonNull ImageView imageView, @NonNull TextView textviewSecond) {
+      @NonNull ImageView imageView) {
     this.rootView = rootView;
     this.buttonFirst = buttonFirst;
     this.imageView = imageView;
-    this.textviewSecond = textviewSecond;
   }
 
   @Override
@@ -77,14 +72,7 @@ public final class FragmentSecondBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textview_second;
-      TextView textviewSecond = ViewBindings.findChildViewById(rootView, id);
-      if (textviewSecond == null) {
-        break missingId;
-      }
-
-      return new FragmentSecondBinding((ConstraintLayout) rootView, buttonFirst, imageView,
-          textviewSecond);
+      return new FragmentSecondBinding((ConstraintLayout) rootView, buttonFirst, imageView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
